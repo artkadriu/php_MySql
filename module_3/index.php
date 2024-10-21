@@ -30,24 +30,35 @@ if ($num>0){
 
 // Write a program that takes a student's score as input and outputs their grades with this system: A: 90-100, B: 80-89, C:70-79, D: 60-69, F: below 60
 
-$score = 100;
+//$score = 100;
 
-if (($score >= 90)  && ($score <= 100));
-{
-    echo "you get an A";
- }elseif  (($score >=80 )  && ($score <= 89));
- {
-     echo "you get an B";
- } 
- elseif
- (($score >=70)  && ($score <= 79));
-{
-    echo "you get an C";
+//if (($score >= 90)  && ($score <= 100));
+//{
+  // echo "you get an A";
+ //}elseif  (($score >=80 )  && ($score <= 89));
+ //{
+   //  echo "you get an B";
+ //} 
+ //elseif
+ //(($score >=70)  && ($score <= 79));
+//{
+  //  echo "you get an C";
+//}
+
+
+$age= 15 && 18
+
+if($age >=15) {
+    youre to young;
+}
+else($age<=18) {
+    youre to old
+
 }
 
-
-
-
+elseif(($age>=15 && <18)){
+    youre elligible;
+}
 
 
 ?>
