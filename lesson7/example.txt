@@ -1,0 +1,2 @@
+  This is sample log messag
+ This is overwrite everything with a new message
