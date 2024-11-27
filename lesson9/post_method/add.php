@@ -19,4 +19,3 @@ if(isset($_POST["submit"])){
     $sqlQuery-> execute();
     echo "The user was added succesfully";
 }
-?>
