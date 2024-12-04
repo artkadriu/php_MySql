@@ -10,6 +10,7 @@ try{
 
     $pdo->setAttribute (PDO::ATTR_ERRMODE, PDO:: ERRMODE_EXCEPTION);
     //echo "Connected";
+<<<<<<< HEAD
 
 
     $sql = "SELECT id,username,email,created_at FROM users";
@@ -17,10 +18,13 @@ try{
     $users = $stmt -> fetchALL (PDO::FETCH_ASSOC);
 
 
+=======
+>>>>>>> 4cf49c68c62a5205f6e17d1f398da1bef8770d6e
     
 }catch(PDOException $e){
     echo "Error:".$e->getMessage();
 }
+<<<<<<< HEAD
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -62,3 +66,13 @@ try{
 </table>
 </body>
 </html>
+=======
+
+
+
+
+
+
+
+?>
+>>>>>>> 4cf49c68c62a5205f6e17d1f398da1bef8770d6e
