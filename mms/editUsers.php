@@ -10,6 +10,7 @@ $selectUser=$conn->bindParam(':id',$sql);
 $selectUser=$conn->execute();
 
 $user_data=$selectUser->fetch();
+$prep->execute();
 
 ?>
 
